@@ -1,0 +1,31 @@
+body{
+background-color:#BFDB38;
+}
+h1{
+	font-family:Cursive;
+	font-size: 80px;
+}
+fieldset{
+	background-color:#191825;
+	font-family: Arial;
+		display: inline;
+	border-radius:20px;
+}
+legend,p,option,select{
+	font-family: Courier New;
+	font-size:28px;
+	color:#E8E2E2;
+	padding: 5px 10px;
+	background-color:#060047;
+	border-radius: 10px;
+}
+legend{
+	font-size: 50px;
+	color: black;
+	background-color:#F6F7C1;
+}
+footer{
+	color: black;
+	font-size: 18px;
+	font-family:Cursive;
+}

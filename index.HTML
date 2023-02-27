@@ -1,0 +1,45 @@
+<html>
+	<head>
+		<title>CAPITAL😎CITY</title>
+		<script type="text/javascript">
+			function ram(val){
+				if(val=="1"){
+					document.getElementById('28').innerHTML="Amaravathi";
+					console.log('Amaravathi');
+				}
+				if(val=="2"){
+					document.getElementById('28').innerHTML="Hyderabad";
+				}
+				if(val=="3")
+					document.getElementById('28').innerHTML="Chennai";
+				if(val=="4")
+					document.getElementById('28').innerHTML="Bengaluru";
+				if(val=="5")
+					document.getElementById('28').innerHTML="Thiruvananthapuram";
+				if(val=="choose")
+					document.getElementById('28').innerHTML="Select-any-city";
+			}
+		</script>
+		<link rel="stylesheet" href="index.CSS">
+		<center><h1>Welcome-To-Find-Capital</h1></center>
+	</head>
+	<body>
+		<center>
+		<fieldset>
+			<legend align=center>Select Location</legend>
+		<select name="area" onchange='ram(this.value);'>
+			<option value="choose">-->Choose-any-state<--</option>
+			<option value="1">Andhra Pradesh</option>
+			<option value="2">Telangana</option>
+			<option value="3">Tamilnadu</option>
+			<option value="4">karnataka</option>
+			<option value="5">kerala</option>
+		</select>
+		<p>Capital city</p>
+		<p>is</p>
+		<p id="28"></p>
+</fieldset>
+</center>
+<footer align="center">©2😎23</footer>
+	</body>
+</html>
